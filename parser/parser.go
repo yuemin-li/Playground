@@ -10,7 +10,8 @@ type Properties struct {
 func main() {
 	input := []byte(`
 		{
-			"EVCId": "123445"
+			"EVCId": "123445",
+			"Extra": "xxx"
 		}
 	`)
 	var test Properties
